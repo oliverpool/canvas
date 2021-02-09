@@ -42,6 +42,10 @@ github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+o
 github.com/klauspost/compress v1.4.1/go.mod h1:RyIbtBH6LamlWaDj8nUwkbUhJ87Yi3uG0guNDohfE1A=
 github.com/klauspost/cpuid v1.2.0/go.mod h1:Pj4uuM528wm8OyEC2QMXAi2YiTZ96dNQPGgoMS4s3ek=
 github.com/matryer/try v0.0.0-20161228173917-9ac251b645a2/go.mod h1:0KeJpeMD6o+O4hW7qJOT7vyQPKrWmj26uf5wMc/IiIs=
+github.com/oliverpool/emojilexer v0.0.0-20210209101356-87bd6233ccc3 h1:EibZls0aHLkKug45UZ6P24hH8PcvmYlC0KV7uMeFxSk=
+github.com/oliverpool/emojilexer v0.0.0-20210209101356-87bd6233ccc3/go.mod h1:qCTW9LNdsVDOw5K+26/Gsslmlfal/Sr3rOy3l4K84u4=
+github.com/oliverpool/emojilexer v0.0.0-20210209160238-1e6980b217ff h1:8UrcK/8iI8y9tBvHvgn5Cb/v0dhHIJUMtLpKELBi+oI=
+github.com/oliverpool/emojilexer v0.0.0-20210209160238-1e6980b217ff/go.mod h1:qCTW9LNdsVDOw5K+26/Gsslmlfal/Sr3rOy3l4K84u4=
 github.com/paulmach/orb v0.1.6 h1:C8klK4r0mR0MnfSk+GvEFFKLrQVwjQ+FlhtXgpaupjg=
 github.com/paulmach/orb v0.1.6/go.mod h1:pPwxxs3zoAyosNSbNKn1jiXV2+oovRDObDKfTvRegDI=
 github.com/paulmach/osm v0.1.1 h1:xqzJUl9lAyt6aMOueuft5JUdQf0NIAPK4LwVGhZXnJ0=
@@ -54,7 +58,9 @@ github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZN
 github.com/remyoudompheng/bigfft v0.0.0-20190728182440-6a916e37a237/go.mod h1:qqbHyh8v60DhA7CoWK5oRCqLrMHRGoxYCSS9EjAz6Eo=
 github.com/ruudk/golang-pdf417 v0.0.0-20181029194003-1af4ab5afa58/go.mod h1:6lfFZQK844Gfx8o5WFuvpxWRwnSoipWe/p622j1v06w=
 github.com/spf13/pflag v1.0.5/go.mod h1:McXfInJRrz4CZXVZOBLb0bTZqETkiAhM9Iw0y3An2Bg=
+github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
+github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/tdewolff/minify/v2 v2.9.5 h1:+fHvqLencVdv14B+zgxQGhetF9qXl/nRTN/1mcyQwpM=
 github.com/tdewolff/minify/v2 v2.9.5/go.mod h1:jshtBj/uUJH6JX1fuxTLnnHOA1RVJhF5MM+leJzDKb4=
 github.com/tdewolff/parse/v2 v2.5.3 h1:fnPIstKgEfxd3+wwHnH73sAYydsR0o/jYhcQ6c5PkrA=
@@ -126,6 +132,8 @@ gonum.org/v1/netlib v0.0.0-20200824093956-f0ca4b3a5ef5/go.mod h1:btLGKT60dpW8TWR
 gonum.org/v1/plot v0.0.0-20190515093506-e2840ee46a6b/go.mod h1:Wt8AAjI+ypCyYX3nZBvf6cAIx93T+c/OS2HFAYskSZc=
 gonum.org/v1/plot v0.8.0 h1:dNgubmltsMoehfn6XgbutHpicbUfbkcGSxkICy1bC4o=
 gonum.org/v1/plot v0.8.0/go.mod h1:3GH8dTfoceRTELDnv+4HNwbvM/eMfdDUGHFG2bo3NeE=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
+gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
 modernc.org/cc v1.0.0/go.mod h1:1Sk4//wdnYJiUIxnW8ddKpaOJCF37yAdqYnkxUpaYxw=
 modernc.org/golex v1.0.0/go.mod h1:b/QX9oBD/LhixY6NDh+IdGv17hgB+51fET1i2kPSmvk=
 modernc.org/mathutil v1.0.0/go.mod h1:wU0vUrJsVWBZ4P6e7xtFJEhFSNsfRLJ8H458uRjg03k=

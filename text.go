@@ -589,6 +589,7 @@ type decoSpan struct {
 type TextSpan struct {
 	Face       FontFace
 	Text       string
+	IsEmoji    bool
 	width      float64
 	boundaries []textBoundary
 

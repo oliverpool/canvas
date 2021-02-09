@@ -5,6 +5,7 @@ require (
 	github.com/ajstarks/svgo v0.0.0-20200725142600-7a3c8b57fecb // indirect
 	github.com/dsnet/compress v0.0.1
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
+	github.com/oliverpool/emojilexer v0.0.0-20210209160238-1e6980b217ff
 	github.com/paulmach/orb v0.1.6
 	github.com/paulmach/osm v0.1.1
 	github.com/pkg/browser v0.0.0-20180916011732-0a3d74bf9ce4
