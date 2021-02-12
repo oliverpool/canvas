@@ -90,7 +90,7 @@ func newEmojiSpan(ff FontFace, emj string) TextSpan {
 		Face:            ff,
 		Text:            emj,
 		IsEmoji:         true,
-		width:           ff.Size * ff.Scale * .9,
+		width:           ff.Size * ff.Scale,
 		boundaries:      []textBoundary{{eofBoundary, len(emj), 0}},
 		dx:              0.0,
 		SentenceSpacing: 0.0,
@@ -110,12 +110,23 @@ func (rt *RichEmojiText) ToText(width, height float64, halign, valign TextAlign,
 	for i, l := range text.lines {
 		for j, s := range l.spans {
 			if s.IsEmoji {
+				// m := s.Face.Metrics()
+				// fmt.Println(s.Face.Size*s.Face.Scale, -.15*s.Face.Size*s.Face.Scale)
+				// fmt.Printf("%#v\n", m)
 				emjs = append(emjs, Emoji{
 					Text:  s.Text,
-					X:     s.dx + s.Face.Size*s.Face.Scale*.05,
+					X:     s.dx,
 					Y:     l.y,
 					Scale: s.Face.Size * s.Face.Scale,
 				})
+				// Bilderbrief
+				// x += 0
+				// y -= .135*emj.Scale
+
+				// Example
+				// x += .1*emj.Scale
+				// y += 0
+				// scale *= 72/100
 
 				s.Text = ""
 				text.lines[i].spans[j] = s
